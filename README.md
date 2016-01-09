@@ -15,7 +15,8 @@ The Powerful Tweet App "Shakit Text"
 * `profile_widget_none.png` - 위젯에서 프로필 사진 기본값입니다.
 * `profile_main_none.png` - 메인화면 계정 부분 프로필 기본값입니다.
 * `title_about.png` - About 부분 로고입니다.
-* `title_about_team` - About 부분 팀 로고입니다.
+* `title_about_team.png` - About 부분 팀 로고입니다.
+* `title_tutorial_frame.png` - 튜토리얼 1페이지 기기 스크린샷입니다.
 
 # Color Information
 * `#55ACEE` - 메인 컬러
@@ -33,6 +34,8 @@ The Powerful Tweet App "Shakit Text"
 * `#424242` - 서티나인 민트 테마 배경 부분
 * `#F48FB1` - 소프트 핑크 테마 타이틀 부분
 * `#F5F5F5` - 소프트 핑크 테마 배경 부분
+* 플로팅 위젯 트윗하기 버튼 `#FFF`에 불투명도 값 .5 /* 외곽선은 투명도 없음 */
+* 튜토리얼 3-1페이지 비활성화된 시작 버튼 불투명도 값 .4
 
 #App Stroyboard
 * Shakit의 시스템을 응용하여 언제 어디서나 쉽고 빠르게 트윗을 작성하고 보낼 수 있는 앱입니다.
@@ -68,3 +71,10 @@ The Powerful Tweet App "Shakit Text"
 4. 소프트 핑크
 ~~~
 * 별도로 스크린샷이 존재하지 않는 부분 /* 다이얼로그같은 */ 부분은 전부 기본적인 Material이거나 Shakit과 동일합니다.
+* 튜토리얼 순서와 내용은 아래와 같습니다.
+~~~
+1. Tutorial 1 페이지
+2. Twitter 로그인 페이지 /* 여긴 트위터에서 로그인해야하기 때문에 별도의 디자인이 없음 */
+3-1. 감도 설정 페이지 
+3-2. 감도를 흔들면 시작 버튼이 활성화
+~~~
